@@ -1,5 +1,5 @@
 {
-  "name": "veritrans",
+  "name": "veritrans-api",
   "version": "0.0.1",
   "description": "use veritrans api for payment in indo",
   "main": "lib/index.js",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/nvhoc/veritrans-api/issues"
   },
-  "homepage": "https://github.com/nvhoc/veritrans-api#readme"
+  "homepage": "https://github.com/nvhoc/veritrans-api#readme",
+  "dependencies": {
+    "agentkeepalive": "^2.0.3",
+    "httpreq": "^0.4.16"
+  }
 }
